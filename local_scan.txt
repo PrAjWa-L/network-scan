@@ -1,0 +1,70 @@
+# Nmap 7.97 scan initiated Mon Jun 23 14:38:31 2025 as: nmap -sS -oN local_scan.txt 192.168.18.6/24
+Nmap scan report for dsldevice.lan (192.168.18.1)
+Host is up (0.0027s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+23/tcp   filtered telnet
+80/tcp   open     http
+443/tcp  open     https
+8099/tcp open     unknown
+MAC Address: E0:1F:2B:AC:15:D1 (Nokia Solutions and Networks GmbH & KG)
+
+Nmap scan report for 192.168.18.2
+Host is up (0.0026s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE    SERVICE
+22/tcp open     ssh
+23/tcp filtered telnet
+MAC Address: E0:1F:2B:AC:69:21 (Nokia Solutions and Networks GmbH & KG)
+
+Nmap scan report for 192.168.18.3
+Host is up (0.0040s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+9080/tcp filtered glrpc
+MAC Address: 1E:7F:A4:0C:1A:3F (Unknown)
+
+Nmap scan report for 192.168.18.4
+Host is up (0.027s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+MAC Address: F8:3B:1D:34:1A:C5 (Vantiva USA)
+
+Nmap scan report for 192.168.18.5
+Host is up (0.0051s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: A4:F9:33:9F:45:DE (Intel Corporate)
+
+Nmap scan report for 192.168.18.9
+Host is up (0.025s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+7000/tcp open  afs3-fileserver
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+MAC Address: E0:D8:C4:CC:D2:32 (Qingdao Intelligent&Precise Electronics)
+
+Nmap scan report for 192.168.18.16
+Host is up (0.011s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+6881/tcp open  bittorrent-tracker
+MAC Address: 7C:70:DB:9B:2B:5C (Intel Corporate)
+
+Nmap scan report for 192.168.18.6
+Host is up (0.0000030s latency).
+All 1000 scanned ports on 192.168.18.6 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Jun 23 14:40:58 2025 -- 256 IP addresses (8 hosts up) scanned in 147.50 seconds
