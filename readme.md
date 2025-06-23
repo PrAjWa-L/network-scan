@@ -10,16 +10,13 @@ Tools used:
 Scan execution:
 
 - ip a
-  
-Finds Local IP range
+  --Finds Local IP range
 
 - sudo nmap -sS <IP address> -oN local_scan.txt
-  
-Performs nmpa scan and saves it to a .txt file
+  --Performs nmap scan and saves it to a .txt file
 
 - sudo wireshark
-
-Packet capture analysis using the wireshark tool.
+  --Packet capture analysis using the wireshark tool.
 
 Scan Results Summary:
 
