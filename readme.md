@@ -23,19 +23,19 @@ Packet capture analysis using the wireshark tool.
 
 Scan Results Summary:
 
-1)192.168.18.15) ==	 22, 80, 443, 8099	==	 Nokia Solutions
+1)192.168.xx.xx ==	 22, 80, 443, 8099	==	 Nokia Solutions
 
-2)192.168.18.2 ==  22	==	Nokia Solutions
+2)192.168.xx.2 ==  22	==	Nokia Solutions
 
-3)192.168.18.3 ==  9080	==	(Filtered) Unknown
+3)192.168.xx.3 ==  9080	==	(Filtered) Unknown
 
-4)192.168.18.4 ==	 8008, 8009, 8443, 9000	 ==	 Vantiva USA
+4)192.168.xx.4 ==	 8008, 8009, 8443, 9000	 ==	 Vantiva USA
 
-5)192.168.18.5 ==	 135, 139, 445 ==  Intel Corp
+5)192.168.xx.5 ==	 135, 139, 445 ==  Intel Corp
 
-6)192.168.18.9 ==  7000, 8008, 8009, 8443, 9000 == Qingdao Intelligent
+6)192.168.xx.9 ==  7000, 8008, 8009, 8443, 9000 == Qingdao Intelligent
 
-7)192.168.18.16 == 	6881 ==	Intel Corp
+7)192.168.xx.16 == 	6881 ==	Intel Corp
 
 
 Wireshark Analysis:
