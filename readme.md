@@ -1,5 +1,6 @@
 Performing reconnaissance on the local network to discover open ports on connected devices.
-NOTE: Open the tcp flow graph on google or brave browsers.
+
+NOTE: Open the tcp flow graph on google or brave browsers. I Have redacted MAC address to maintain privacy.
 
 Tools used:
 - nmap
@@ -9,12 +10,15 @@ Tools used:
 Scan execution:
 
 - ip a
+  
 Finds Local IP range
 
 - sudo nmap -sS <IP address> -oN local_scan.txt
+  
 Performs nmpa scan and saves it to a .txt file
 
 - sudo wireshark
+
 Packet capture analysis using the wireshark tool.
 
 Scan Results Summary:
