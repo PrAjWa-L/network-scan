@@ -12,7 +12,7 @@ Scan execution:
 - ip a
   -->Finds Local IP range
 
-- sudo nmap -sS <IP address> -oN local_scan.txt
+- sudo nmap -sS (ip address) -oN local_scan.txt
   -->Performs nmap scan and saves it to a .txt file
 
 - sudo wireshark
