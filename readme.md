@@ -1,4 +1,5 @@
 Performing reconnaissance on the local network to discover open ports on connected devices.
+NOTE: Open the tcp flow graph on google or brave browsers.
 
 Tools used:
 - nmap
